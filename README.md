@@ -1,4 +1,3 @@
-### ✅ `README.md`
 
 ```markdown
 # 🌍 RSS News Aggregator
@@ -18,6 +17,7 @@ A Python-based news aggregator that fetches headlines from various country-speci
 
 ```
 ## 🗂️ Folder Structure
+```plaintext
 rss_aggregator/
 ├── app.py             # Flask API 
 ├── main.py            # Entry script to fetch and save news
