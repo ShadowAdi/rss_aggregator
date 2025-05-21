@@ -1,6 +1,6 @@
-2025-05-21 09:50:33,397 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,297 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -14,9 +14,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:33,405 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,312 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -30,9 +30,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:33,407 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,315 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -46,9 +46,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:33,409 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,315 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -62,9 +62,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:33,421 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,332 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -78,9 +78,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:33,488 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:23,393 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -94,9 +94,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:34,503 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:24,469 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -110,9 +110,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:34,568 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:24,946 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -126,9 +126,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:35,017 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:24,997 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -142,9 +142,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:35,073 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:25,047 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -158,9 +158,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:35,134 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:19:30,852 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -174,9 +174,10 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:50:38,812 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:20:35,930 - ERROR - Failed to access feed https://www.cbc.ca/webfeed/rss/rss-topstories after retries, skipping...
+2025-05-21 13:20:38,126 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -190,80 +191,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:51:08,671 - ERROR - Failed to access feed https://www.cbc.ca/webfeed/rss/rss-topstories: HTTPSConnectionPool(host='www.cbc.ca', port=443): Read timed out. (read timeout=15)
+2025-05-21 13:20:38,191 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-               ^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
-    httplib_response = super().getresponse()
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python312\Lib\http\client.py", line 1428, in getresponse
-    response.begin()
-  File "C:\Python312\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "C:\Python312\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python312\Lib\socket.py", line 720, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python312\Lib\ssl.py", line 1251, in recv_into
-    return self.read(nbytes, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python312\Lib\ssl.py", line 1103, in read
-    return self._sslobj.read(len, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
-    raise reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
-    raise value
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
-    response = self._make_request(
-               ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
-    raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.cbc.ca', port=443): Read timed out. (read timeout=15)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 9, in is_feed_accessible
-    response = requests.head(url, timeout=15, allow_redirects=True)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\api.py", line 100, in head
-    return request("head", url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\requests\adapters.py", line 713, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cbc.ca', port=443): Read timed out. (read timeout=15)
-2025-05-21 09:51:11,849 - ERROR - Failed to get langauge of the text: 
-Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -277,9 +207,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:51:11,904 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:20:43,340 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
@@ -293,25 +223,9 @@ Traceback (most recent call last):
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
     raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
 langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:51:18,010 - ERROR - Failed to get langauge of the text: 
+2025-05-21 13:20:43,361 - ERROR - Failed to get langauge of the text: 
 Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
-    return detect(text)
-           ^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
-    return detector.detect()
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 136, in detect
-    probabilities = self.get_probabilities()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 143, in get_probabilities
-    self._detect_block()
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
-    raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
-langdetect.lang_detect_exception.LangDetectException: No features in text.
-2025-05-21 09:51:18,028 - ERROR - Failed to get langauge of the text: 
-Traceback (most recent call last):
-  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 18, in detect_language
+  File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\utils.py", line 25, in detect_language
     return detect(text)
            ^^^^^^^^^^^^
   File "C:\Users\SHADO\OneDrive\Desktop\rss_aggregator\env\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect

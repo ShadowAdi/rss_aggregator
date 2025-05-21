@@ -120,8 +120,38 @@ Each entry will contain:
   "language":"English"
 }
 ```
-
 ---
+# Summary Table
+```markdown
+| Country      | News Agency                                                                                      | Total Articles Downloaded | Total Historical Data |
+|--------------|------------------------------------------------------------------------------------------------|---------------------------|-----------------------|
+| UK           | BBC News, World news \| The Guardian                                                           | 79                        | 0                     |
+| US           | CNN.com - RSS Channel - App International Edition, NYT > Top Stories                            | 82                        | 0                     |
+| India        | India News \| Latest India News Headlines Today and Live Updates from India - Times of India, World News Today: International News Headlines - The Hindu \| The Hindu | 120                       | 0                     |
+| Japan        | NHKニュース                                                                                     | 7                         | 0                     |
+| Singapore    | The Straits Times Singapore News                                                                | 52                        | 0                     |
+| Russia       | RT World News, TASS                                                                             | 200                       | 0                     |
+| France       | Le Monde.fr - Actualités et Infos en France et dans le monde                                    | 18                        | 0                     |
+| Australia    | Just In, Sydney Morning Herald - Latest News                                                    | 45                        | 0                     |
+| Brazil       | g1                                                                                             | 100                       | 0                     |
+| Italy        | Primo piano ANSA - ANSA.it, Repubblica.it                                                      | 54                        | 0                     |
+| Israel       | JPost.com - Breaking News                                                                      | 30                        | 0                     |
+| Germany      | DER SPIEGEL - International                                                                     | 20                        | 0                     |
+| China        | XINHUANEWS                                                                                      | 20                        | 20                    |
+| South Africa | The Mail & Guardian                                                                            | 10                        | 0                     |
+| Mexico       | Mexico News Daily                                                                              | 10                        | 0                     |
+| New Zealand  | Stuff - /                                                                                      | 80                        | 0                     |
+| Nigeria      | The Guardian Nigeria News – Nigeria and World News                                             | 10                        | 0                     |
+```
+
+## Limitations
+
+# ⚠️ Current Limitations
+Historical Data Unavailable:
+This scraper does not fetch historical articles. It only parses articles available at the time of each scheduled run. If an article is published and removed before the scraper runs, it will be missed.
+
+# Summary Table is Session-Based:
+The summary report is regenerated after each scrape session and reflects only articles fetched in that session. It does not summarize the entire historical dataset unless modified.
 
 ## 🧠 Author Notes
 

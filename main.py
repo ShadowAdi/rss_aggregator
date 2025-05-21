@@ -7,18 +7,27 @@ from Json_saver import Json_Saver
 from logger import logger
 import schedule
 import time
+from Generate_Summary import generate_summary_report
+import requests
 
 all_articles = []
 
 conn, cursor = DBConnect()
 
-
 def Scraping_Feed():
+    all_articles = []
     for country, feeds in Country_Feeds.items():
         for feed_url in feeds:
-            if not is_feed_accessible(feed_url):
+            try:
+                accessible = is_feed_accessible(feed_url)
+            except requests.RequestException:
+                logger.error(f"Failed to access feed {feed_url} after retries, skipping...")
+                continue  
+            
+            if not accessible:
                 logger.warning(f"Skipping inaccessible feed: {feed_url}")
                 continue
+
             try:
                 feed = feedparser.parse(feed_url)
                 if feed.bozo:
@@ -60,8 +69,8 @@ def Scraping_Feed():
                     try:
                         cursor.execute(
                             """
-                            INSERT OR IGNORE INTO news (title, summary, published, link, source, country,language)
-                            VALUES (?, ?, ?, ?, ?, ?,?)
+                            INSERT OR IGNORE INTO news (title, summary, published, link, source, country, language)
+                            VALUES (?, ?, ?, ?, ?, ?, ?)
                             """,
                             (
                                 title,
@@ -81,7 +90,7 @@ def Scraping_Feed():
                                 f"Skipped duplicate article: {title} from {country}"
                             )
                     except sqlite3.Error as e:
-                        locals.error(f"Database insert error for {title}: {e}")
+                        logger.error(f"Database insert error for {title}: {e}")
             except Exception as e:
                 logger.exception(f"Error processing feed {feed_url}: {e}")
 
@@ -94,7 +103,7 @@ def Scraping_Feed():
         conn.close()
 
     Json_Saver(all_articles=all_articles)
-
+    generate_summary_report(all_articles=all_articles)
 
 def job():
     logger.info("Starting scheduled scrape job...")
