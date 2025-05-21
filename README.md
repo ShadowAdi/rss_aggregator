@@ -5,7 +5,6 @@
 
 A Python-based news aggregator that fetches headlines from various country-specific RSS feeds, stores them in a local database, and exports them to a JSON file. The application is built using a modular approach—each component handles a distinct responsibility, improving maintainability and readability.
 
----
 
 ## 📦 Features
 
@@ -15,11 +14,10 @@ A Python-based news aggregator that fetches headlines from various country-speci
 - Logs every major action for easy debugging.
 - Flask API to serve the news via endpoints.
 
----
 
-## 🗂️ Folder Structure
 
 ```
+## 🗂️ Folder Structure
 rss_aggregator/
 ├── app.py             # Flask API 
 ├── main.py            # Entry script to fetch and save news
