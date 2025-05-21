@@ -146,11 +146,11 @@ Each entry will contain:
 
 ## Limitations
 
-# ⚠️ Current Limitations
-Historical Data Unavailable:
+⚠️ Current Limitations
+### Historical Data Unavailable:
 This scraper does not fetch historical articles. It only parses articles available at the time of each scheduled run. If an article is published and removed before the scraper runs, it will be missed.
 
-# Summary Table is Session-Based:
+### Summary Table is Session-Based:
 The summary report is regenerated after each scrape session and reflects only articles fetched in that session. It does not summarize the entire historical dataset unless modified.
 
 ## 🧠 Author Notes
